@@ -22,9 +22,9 @@ class YukkiBot(Client):
         LOGGER(__name__).info(f"Starting Bot")
         super().__init__(
             "YukkiMusicBot",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            bot_token=config.BOT_TOKEN,
+            api_id=config.API_ID,20632724
+            api_hash=config.API_HASH,fcb71f66e685e3ece3c4c36b87ec19de
+            bot_token=config.BOT_TOKEN,5963011012:AAGHaOA9GC3Ve43bS44x_-EBaXoSAvGeeZg
         )
 
     async def start(self):
