@@ -22,9 +22,9 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_name=str(config.STRING1),
+            api_id=config.API_ID,20632724
+            api_hash=config.API_HASH,fcb71f66e685e3ece3c4c36b87ec19de
+            session_name=str(config.STRING1),BQCIaK4pW55LgN0lyfTV-YYqkNxxpEctC-OwpROZdHDmmsfWUD4oiqDIQEa42qmd3xzjlHmBKkn03iPOFv-3zYe6Odxk0uTemukr8di_3U59egulnYven9xPPD6GR-8E3Ow_6MY2RKRw-oVREJjrNgpMxgMVxT27Ii_46yJAg1PFoOHuHkdwYfV0RvPARSU-vpE0Ru-FPUuRnbpHuxYfb3mWmrIYaYYhQelczkpJpCs06WF7UnpkmJ7TPRduCAyAZTxV_mHFjgWt1-KAINjjhcgJS-IwnfMLQQLm5L0E3YwmoAstVrqTH3Wf5wSBeNb3GEl-s20lyRN0HXj2bPoSQva7ah4Q4QA
             no_updates=True,
         )
         self.two = Client(
@@ -88,7 +88,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("TeamYM")
+                await self.two.join_chat("FRIENDS_FOR_REALL")
                 await self.two.join_chat("TheYukki")
                 await self.two.join_chat("YukkiSupport")
             except:
